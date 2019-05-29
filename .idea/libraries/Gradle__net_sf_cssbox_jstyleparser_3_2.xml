@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.sf.cssbox:jstyleparser:3.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/net.sf.cssbox/jstyleparser/3.2/9c165d1b0c9a357d97d02c0da6758259889d4644/jstyleparser-3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/net.sf.cssbox/jstyleparser/3.2/a852f62128d4e767970228d6bbca49a66ab74c51/jstyleparser-3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

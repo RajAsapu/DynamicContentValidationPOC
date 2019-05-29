@@ -29,4 +29,6 @@ dependencies {
     compile group: 'net.sf.cssbox', name: 'pdf2dom', version: '1.7'
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
     compile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
+    // https://mvnrepository.com/artifact/org.apache.lucene/lucene-core
+    compile group: 'org.apache.lucene', name: 'lucene-core', version: '8.1.1'
 }

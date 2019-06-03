@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 
@@ -29,7 +30,7 @@ public class PDFInterpreterWithText {
 
     public Map<String,String> getVariables(String pdfFileName, BaseTemplate template){
         try {
-            Map<String,String> variableMap=new HashMap<>();
+            Map<String,String> variableMap=new LinkedHashMap<>();
             String[] templateFile= FileUtils.readFileToString(new File(templatePath+File.separator+template.getFileName()),"UTF-8").split("\\n");
             String[] pdfText=getTextFromPdf(pdfFileName).split("\\n");
             //add error condition to check if template matches
@@ -60,12 +61,6 @@ public class PDFInterpreterWithText {
         return null;
     }
 
-//    @Test
-//    public void test(){
-//        Map<String,String> map=new HashMap<>();
-//        retrieveValue(map,"Guide To Your ${what} Liability Policy","A Guide To Your General Liability Policy");
-//        System.out.println(map.size());
-//    }
 
     public void retrieveValue(Map<String,String> map,String template,String pdfText){
         String[] templateTokens=template.split(" ");

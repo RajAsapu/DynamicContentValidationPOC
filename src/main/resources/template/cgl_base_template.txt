@@ -3,7 +3,7 @@ A Guide To Your General Liability Policy
 The following is a guide to your General Liability policy. We have identified several key coverage items along with the limits and
 deductibles you have selected. To make it easier, we have also added a brief explanation of those items.
 We want you to feel confident about your new policy. If any of the information below is incorrect or if you have any questions,
-please contact one of our advisors at 888-202-3007 (Mon-Fri, 8am-10pm EST) or manage your policy at: www.hiscox.com/
+please contact one of our advisors at ${contactPhoneNumber} (Mon-Fri, 8am-10pm EST) or manage your policy at: www.hiscox.com/
 manage-your-policy.
 Your business details
 Name: ${firstName}
@@ -16,7 +16,7 @@ Occupation: ${occupation}
 Telephone number: ${telephone}
 Email address: ${emailAddress}
 Your General Liability Policy
-Policy number: GL49152363174
+Policy number: ${policyNumber}
 Policy effective dates:
 This determines the time period during which your coverage applies.
 From:
@@ -27,8 +27,8 @@ Form of business:
 This identifies the legal structure of your business and determines who is
 insured under your policy.
 Sole Proprietor
-Business Property and Equipment Coverage: Rejected
-Optional terrorism coverage: Excluded
+Business Property and Equipment Coverage: ${businessPropertyAndEqCoverage}
+Optional terrorism coverage: ${optionalTerrorismCoverage}
 Total cost of policy: ${totalCostOfPolicy}
 Your coverage and limits
 Each occurrence limit
@@ -42,13 +42,13 @@ General aggregate limit
 The most we will pay for all damages and medical expenses for the entire
 policy. Defense costs we incur, in the defense of a lawsuit filed against you,
 will not reduce this limit.
-$ 2,500,000
+${maxPayForDamgesMedicalExpenses}
 Damage to premises rented to you
 The most we will pay for damages, for which you are liable, to any one
 premises that is rented to you. This may include office space, conference
 rooms or training facilities, but does not include your primary residence if
 you are a home-based business.
-$ 100,000 any one premises
+${maxPayForLiable} any one premises
 Your limits for this Business Property and Equipment Coverage
 The most we will pay (per occurrence) for loss or damage to your business
 equipment and property (e.g. computers, furniture) at the listed premise(s).
@@ -75,7 +75,7 @@ covered under the policy before the policy makes any payments.
 $ 25,000
 Other policy information
 Notice of claim
-If you have a claim, please call us at 866-424-8508. You may also e-mail us at reportaclaim@hiscox.com
+If you have a claim, please call us at ${phoneNumberForClaim}. You may also e-mail us at reportaclaim@hiscox.com
 What does my General Liability Policy cover?
 For a summary showing examples of what you are and are not covered for, please read the Coverage Summary
 document.

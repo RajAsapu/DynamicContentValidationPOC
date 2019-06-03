@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505e0315-e3d1-4384-96ca-16cd081ec1a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163767_1_1CGL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163767_1_1EO.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163767_1_2CGL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163767_1_2EO.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163767_1_CGL_Acord25_2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163767_1_EO_Acord25_1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163767_1_Payment.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163767_5_2CGL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163767_5_2EO.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163767_5_Payment.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163826_1_1CGL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163826_1_2CGL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163826_1_CGL_Acord25_1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163826_1_Payment.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163826_3_2CGL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/4163826_3_Payment.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/ACORDS-52095344074_240520191249033.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/b18ff61f-6ecf-4173-97ee-077147a54cb4_20190501154805934_TestMustang123_2 (1).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pdfs/b18ff61f-6ecf-4173-97ee-077147a54cb4_20190501154805934_TestMustang123_2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/PDFInterpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/PDFInterpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.DynamicContentValidationPOC.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.DynamicContentValidationPOC.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/runner/PDFTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/runner/PDFTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/template/cgl_base_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/template/cgl_base_template.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/PDFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/PDFTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,18 +18,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DockManager">
-    <window id="1">
+    <window id="2">
       <content type="file-editors">
         <state>
           <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/LucenePDFDocument.java">
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/test/java/runner/PDFTest.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="311">
-                    <caret line="254" selection-start-line="254" selection-end-line="254" />
+                  <state relative-caret-position="739">
+                    <caret line="59" column="89" selection-start-line="59" selection-start-column="89" selection-end-line="59" selection-end-column="89" />
                     <folding>
                       <element signature="imports" expanded="true" />
                     </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/resources/template/cgl_base_template.txt">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="465">
+                    <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
                   </state>
                 </provider>
               </entry>
@@ -71,10 +63,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/runner/PDFTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/LucenePDFDocument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+            <state relative-caret-position="3743">
+              <caret line="265" column="42" selection-start-line="265" selection-start-column="42" selection-end-line="265" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/PDFInterpreter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +87,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/template/cgl_base_template.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/PDFInterpreterWithText.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/BaseTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/template/4163767_1_1CGL.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5647">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -94,6 +129,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -128,12 +164,16 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/LucenePDFDocument.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/PDFInterpreter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/template/cgl_base_template.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/template/output.json" />
+        <option value="$PROJECT_DIR$/src/main/java/model/BaseTemplate.java" />
         <option value="$PROJECT_DIR$/src/test/java/runner/PDFTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/PDFInterpreterWithText.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/template/cgl_base_template.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1920" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -283,7 +323,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559112422104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559540800556" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/utils" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -293,6 +333,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/template" />
       <recent name="$PROJECT_DIR$/src/main/resources/pdfs" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
@@ -313,21 +354,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PDFTest.getLuceneDocument">
-    <configuration name="PDFInterpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.pdf_interpreter.PDFInterpreter" />
-      <module name="com.DynamicContentValidationPOC.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.pdf_interpreter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PDFInterpreter.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PDFTest.getMapOfvariables2">
+    <configuration name="PDFInterpreterWithText.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.DynamicContentValidationPOC.main" />
       <extension name="coverage">
         <pattern>
@@ -336,7 +364,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="utils.pdf_interpreter" />
-      <option name="MAIN_CLASS_NAME" value="utils.pdf_interpreter.PDFInterpreter" />
+      <option name="MAIN_CLASS_NAME" value="utils.pdf_interpreter.PDFInterpreterWithText" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -359,6 +387,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PDFTest.getMapOfvariables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.DynamicContentValidationPOC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.PDFTest" />
+      <option name="METHOD_NAME" value="getMapOfvariables" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PDFTest.getMapOfvariables2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.DynamicContentValidationPOC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.PDFTest" />
+      <option name="METHOD_NAME" value="getMapOfvariables2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PDFTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.DynamicContentValidationPOC.test" />
       <extension name="coverage">
@@ -375,29 +435,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PDFTest.validate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.DynamicContentValidationPOC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.PDFTest" />
-      <option name="METHOD_NAME" value="validate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PDFTest.getMapOfvariables2" />
+        <item itemvalue="JUnit.PDFTest.getMapOfvariables" />
+        <item itemvalue="JUnit.PDFInterpreterWithText.test" />
         <item itemvalue="JUnit.PDFTest.getLuceneDocument" />
         <item itemvalue="JUnit.PDFTest.test" />
-        <item itemvalue="JUnit.PDFTest.validate" />
-        <item itemvalue="JUnit.PDFInterpreter.test" />
-        <item itemvalue="Application.PDFInterpreter" />
       </list>
     </recent_temporary>
   </component>
@@ -412,44 +456,52 @@
       <option name="presentableId" value="Default" />
       <updated>1558398771302</updated>
     </task>
+    <task id="LOCAL-00001" summary="output json from pdf.co">
+      <created>1559114430190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559114430190</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PDFTest_getLuceneDocument - 2019.05.29 at 02h 06m 19s.xml">
-      <configuration name="PDFTest.getLuceneDocument" configurationId="JUnit" />
+    <history-entry file="PDFTest_getMapOfvariables - 2019.06.03 at 01h 21m 20s.xml">
+      <configuration name="PDFTest.getMapOfvariables" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PDFTest_getLuceneDocument - 2019.05.29 at 02h 06m 28s.xml">
-      <configuration name="PDFTest.getLuceneDocument" configurationId="JUnit" />
+    <history-entry file="PDFTest_getMapOfvariables - 2019.06.03 at 01h 21m 45s.xml">
+      <configuration name="PDFTest.getMapOfvariables" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PDFTest_getLuceneDocument - 2019.05.29 at 02h 17m 08s.xml">
-      <configuration name="PDFTest.getLuceneDocument" configurationId="JUnit" />
+    <history-entry file="PDFTest_getMapOfvariables - 2019.06.03 at 01h 27m 46s.xml">
+      <configuration name="PDFTest.getMapOfvariables" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PDFTest_getLuceneDocument - 2019.05.29 at 02h 18m 20s.xml">
-      <configuration name="PDFTest.getLuceneDocument" configurationId="JUnit" />
+    <history-entry file="PDFTest_getMapOfvariables - 2019.06.03 at 01h 29m 28s.xml">
+      <configuration name="PDFTest.getMapOfvariables" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PDFTest_getLuceneDocument - 2019.05.29 at 02h 30m 25s.xml">
-      <configuration name="PDFTest.getLuceneDocument" configurationId="JUnit" />
+    <history-entry file="PDFTest_getMapOfvariables - 2019.06.03 at 01h 31m 32s.xml">
+      <configuration name="PDFTest.getMapOfvariables" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PDFTest_getLuceneDocument - 2019.05.29 at 02h 35m 01s.xml">
-      <configuration name="PDFTest.getLuceneDocument" configurationId="JUnit" />
+    <history-entry file="PDFTest_getMapOfvariables - 2019.06.03 at 01h 33m 37s.xml">
+      <configuration name="PDFTest.getMapOfvariables" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PDFTest_getLuceneDocument - 2019.05.29 at 02h 37m 07s.xml">
-      <configuration name="PDFTest.getLuceneDocument" configurationId="JUnit" />
+    <history-entry file="PDFTest_getMapOfvariables - 2019.06.03 at 01h 36m 27s.xml">
+      <configuration name="PDFTest.getMapOfvariables" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PDFTest_getLuceneDocument - 2019.05.29 at 02h 38m 12s.xml">
-      <configuration name="PDFTest.getLuceneDocument" configurationId="JUnit" />
+    <history-entry file="PDFTest_getMapOfvariables - 2019.06.03 at 01h 38m 42s.xml">
+      <configuration name="PDFTest.getMapOfvariables" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PDFTest_getLuceneDocument - 2019.05.29 at 02h 38m 52s.xml">
-      <configuration name="PDFTest.getLuceneDocument" configurationId="JUnit" />
+    <history-entry file="PDFTest_getMapOfvariables - 2019.06.03 at 01h 40m 35s.xml">
+      <configuration name="PDFTest.getMapOfvariables" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PDFTest_getLuceneDocument - 2019.05.29 at 02h 39m 39s.xml">
-      <configuration name="PDFTest.getLuceneDocument" configurationId="JUnit" />
+    <history-entry file="PDFTest_getMapOfvariables - 2019.06.03 at 01h 42m 36s.xml">
+      <configuration name="PDFTest.getMapOfvariables" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7920792" visible="true" weight="0.15601704" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7920792" visible="true" weight="0.25612354" />
       <window_info id="Structure" order="1" sideWeight="0.20792079" side_tool="true" weight="0.15601704" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -458,14 +510,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5762376" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.58217824" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4821782" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34356436" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.63465345" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.6642487" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32970297" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.32970297" />
@@ -479,6 +531,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Gradle" order="8" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="output json from pdf.co" />
+    <option name="LAST_COMMIT_MESSAGE" value="output json from pdf.co" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -496,16 +552,46 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/LucenePDFDocument.java</url>
-          <line>254</line>
+          <url>file://$PROJECT_DIR$/src/test/java/runner/PDFTest.java</url>
+          <line>61</line>
           <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>((i+1)&lt;templateTokens.length)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>2&lt;template.length()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pdfTokens.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pdfTokens.countTokens()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>templateTokens.countTokens()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>templateTokens.currentPosition</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>indexableField.readerValue()</expression-string>
         <language-id>JAVA</language-id>
@@ -518,36 +604,6 @@
       </expression>
       <expression>
         <expression-string>String.valueOf(indexableField.readerValue().skipBuffer)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>indexableField.readerValue().read()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>document.getField(&quot;contents&quot;).readerValue().read()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>document.getField(&quot;contents&quot;).readerValue()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>document.getField(&quot;contents&quot;).readerValue().toString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>document.getFields(&quot;contents&quot;)[0]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>document.getValues(&quot;contents&quot;).length</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -574,16 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/PDFInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -661,23 +707,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/template/output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/template/4163767_1_1CGL.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5647">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/LucenePDFDocument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        <state relative-caret-position="3743">
+          <caret line="265" column="42" selection-start-line="265" selection-start-column="42" selection-end-line="265" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/PDFTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/PDFInterpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        <state relative-caret-position="870">
+          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/BaseTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runner/PDFTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="59" column="89" selection-start-line="59" selection-start-column="89" selection-end-line="59" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/pdf_interpreter/PDFInterpreterWithText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/template/cgl_base_template.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
         </state>
       </provider>
     </entry>

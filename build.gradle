@@ -25,10 +25,6 @@ dependencies {
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
     // https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox-tools
     compile group: 'org.apache.pdfbox', name: 'pdfbox-tools', version: '2.0.15'
-    // https://mvnrepository.com/artifact/net.sf.cssbox/pdf2dom
-    compile group: 'net.sf.cssbox', name: 'pdf2dom', version: '1.7'
-    // https://mvnrepository.com/artifact/org.projectlombok/lombok
-    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
     // https://mvnrepository.com/artifact/org.apache.lucene/lucene-core
     compile group: 'org.apache.lucene', name: 'lucene-core', version: '8.1.1'
 }

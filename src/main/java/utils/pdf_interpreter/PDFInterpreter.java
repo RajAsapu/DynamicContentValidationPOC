@@ -1,81 +1,82 @@
 package utils.pdf_interpreter;
 
-import org.apache.pdfbox.pdmodel.*;
-import org.fit.pdfdom.PDFDomTree;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
+import model.BaseTemplate;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
+import org.apache.lucene.document.Document;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
-import java.io.StringWriter;
-import java.io.Writer;
+import java.io.IOException;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class PDFInterpreter {
+    static String templatePath=null,pdfPath=null;
+    private static Logger log= LoggerFactory.getLogger(PDFInterpreter.class);
 
-    private static Logger log = LoggerFactory.getLogger(PDFInterpreter.class);
-    private String path = null;
-
-    public PDFInterpreter() {
-        path = this.getClass().getClassLoader().getResource("pdfs").getPath();
+    public PDFInterpreter(){
+        templatePath=this.getClass().getClassLoader().getResource("template").getPath();
+        pdfPath=this.getClass().getClassLoader().getResource("pdfs").getPath();
     }
 
-    public Document parsePDF(String fileName){
+    public Map<String,String> getVariables(String pdfFileName, BaseTemplate template){
         try {
-            PDDocument pdf = PDDocument.load(new File(path+File.separator+fileName));
-            PDFDomTree tree=new PDFDomTree();
-            tree.setStartPage(1);
-            tree.setEndPage(1);
-            Writer output = new StringWriter();
-            tree.writeText(pdf, output);
-            pdf.close();
-            return Jsoup.parse(output.toString());
-        }catch (Exception exp){
-            exp.printStackTrace();
+            Map<String,String> variableMap=new LinkedHashMap<>();
+            String[] templateFile= FileUtils.readFileToString(new File(templatePath+File.separator+template.getFileName()),"UTF-8").split("\\n");
+            String[] pdfText=getTextFromPdf(pdfFileName).split("\\n");
+            //add error condition to check if template matches
+            for(int i=0;i<templateFile.length;i++){
+                if(templateFile[i].contains("${")){
+                    retrieveValue(variableMap,templateFile[i],pdfText[i]);
+                }
+            }
+            return variableMap;
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
         return null;
     }
 
-    public void traversePDF(String fileName){
-
+    public String getTextFromPdf(String pdfFileName){
+        LucenePDFDocument lucenePDFDocument=new LucenePDFDocument();
         try {
-            PDDocument doc = PDDocument.load(new File(path + File.separator + fileName));
-            PDDocumentInformation info = doc.getDocumentInformation();
-            System.out.println(info.getKeywords());
-//            COSDictionary dict = info.getKeywords();
-//            for (Map.Entry<COSName, COSBase> object : dict.entrySet()) {
-//                System.out.println(object.getKey() + "-----" + object.getValue());
-//            }
-//            PDDocumentCatalog cat = doc.getDocumentCatalog();
-//            System.out.println("Catalog:" + cat);
-//
-//            PDPageTree lp = cat.getPages();
-//            System.out.println("# Pages: " + lp.getCount());
-//            PDPage page = lp.get(1);
-//            System.out.println("Page: " + page);
-//            System.out.println("\tCropBox: " + page.getCropBox());
-//            System.out.println("\tMediaBox: " + page.getMediaBox());
-//            System.out.println("\tResources: " + page.getResources());
-//            System.out.println("\tRotation: " + page.getRotation());
-//            System.out.println("\tArtBox: " + page.getArtBox());
-//            System.out.println("\tBleedBox: " + page.getBleedBox());
-//            Iterator<PDStream> iterable=page.getContentStreams();
-//            while(iterable.hasNext()){
-//                System.out.println(iterable.next().getCOSObject().toTextString());
-//            }
-//            //System.out.println("\tContents: " + page.getContents().readAllBytes().());
-//            System.out.println("\tTrimBox: " + page.getTrimBox());
-//            List<PDAnnotation> la = page.getAnnotations();
-//            System.out.println("\t# Annotations: " + la.size());
-        }catch (Exception exp){
-            exp.printStackTrace();
+            File pdfFile=new File(pdfPath+File.separator+pdfFileName);
+            Document document=lucenePDFDocument.convertDocument(pdfFile);
+            String pdfText= IOUtils.toString(document.getField("contents").readerValue());
+            log.info(String.format("PDF to text of:%s\n%s",pdfFileName,pdfText));
+            return pdfText;
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
+        return null;
     }
 
-    public org.apache.lucene.document.Document getLuceneDocument(String fileName)throws Exception{
-        LucenePDFDocument converter = new LucenePDFDocument();
-        return converter.convertDocument(new File(path + File.separator + fileName));
 
+    public void retrieveValue(Map<String,String> map,String template,String pdfText){
+        String[] templateTokens;
+        String startToken="",endToken="",value="",variable=null;
+        boolean flag=false,matched=false;
+
+        templateTokens=template.split(" ");
+        // determine start index and end index- ToDO wrap text,multiple variables in single line
+        for(int i=0;i<templateTokens.length;i++){
+            if(templateTokens[i].contains("${")&&templateTokens[i].charAt(templateTokens[i].length()-1)=='.'){
+                templateTokens[i]=templateTokens[i].substring(0,templateTokens[i].length()-1);
+            }
+            if(templateTokens[i].matches("^(\\$\\{[a-zA-Z0-9.]*\\})$")){
+                variable=templateTokens[i].replaceAll("[${}]","");
+                matched=true;
+            }else if(matched){
+                endToken+=templateTokens[i]+" ";
+            }else {
+                startToken+=templateTokens[i]+" ";
+            }
+        }
+        value= pdfText.replace(startToken.trim(),"")
+                .replace(endToken.trim(),"");
+        map.put(variable,value.trim());
     }
 }
